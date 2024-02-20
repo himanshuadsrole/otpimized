@@ -218,7 +218,7 @@ display: inline-block;
 @media screen and (max-width:575px) {
     
     #pricing_box{
-        margin-top: -255px;
+        margin-top: -280px;
     }
 }
 
