@@ -1,0 +1,182 @@
+
+/* # Mobile */
+@media only screen and (min-width: 480px)
+{
+    .price-container{
+        margin-top: -180px!important;
+    }
+    .b-text{
+        font-size: 27px!important;
+    }
+    .price-banner{
+        height: 70vh!important;
+    }
+}
+
+/* # Tablet */
+@media only screen and (min-width: 768px) 
+{
+    .price-container{
+        margin-top: -380px!important;
+    } 
+    .price-banner{
+        height: 70vh!important;
+    }
+}
+/* # Desktop */
+@media only screen and (min-width: 992px)
+{
+    .price-container{
+        margin-top: -380px!important;
+    } 
+    .price-banner{
+        height: 100vh!important;
+    }
+}
+/* # Huge */
+@media only screen and (min-width: 1280px)
+{
+    
+}
+p{
+    font-size: 20px;
+}
+.page-banner{
+    position: relative;
+}
+.price-banner{
+    background-image: url('./Frame-000006410.png');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+.b-text{
+    font-size: 50px;
+}
+.price-box{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+   margin: 10px;
+    box-shadow: inset #d8d8d8 0px 0px 20px -6px;
+}
+.price-container{
+    margin-top: -500px;
+    margin-bottom: 50px;
+}
+.off{
+font-size: 24px;
+font-weight: 500;
+}
+.sale{
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;
+}
+.p-btn{
+    padding: 15px 0px;
+    background-color: #ffad19; 
+    border-radius: 15px;
+    box-shadow: inset #ffad19 0px 0px 20px -6px;
+}
+a.p-text-btn{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+.s-box{
+    position: relative;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+height: 350px;
+display: inline-block;
+}
+@media only screen and (min-width: 767px) 
+{
+    .s-box{
+      
+        width: 250px!important;
+    height: 250px!important;
+    
+    }
+    .sub-box h4{
+        font-size: 15px!important;
+
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .s-box{
+        margin: auto;
+        display: flex;
+        width: 233px!important;
+    height: 233px!important;
+    
+    }
+}
+.s-box img{
+    width: 50px;;
+}
+.sub-box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+.box-1{
+    background-image: url('./1-01.png');
+
+}
+.box-2{
+    background-image: url('./2-01-1.png');
+
+}
+.box-3{
+    background-image: url('./3-01-1.png');
+
+}
+.box-4{
+    background-image: url('./4-01-2.png');
+
+}
+.box-5{
+    background-image: url('./05.png');
+
+}
+.box-6{
+    background-image: url('./06.png');
+
+}
+.box-7{
+    background-image: url('./07.png');
+
+}
+.box-8{
+    background-image: url('./08.png');
+
+}
+.box-9{
+    background-image: url('./09.png');
+
+}
+.box-10{
+    background-image: url('./10.png');
+
+}
+.box-11{
+    background-image: url('./11.png');
+
+}
